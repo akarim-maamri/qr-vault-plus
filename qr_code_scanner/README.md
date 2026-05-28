@@ -134,7 +134,8 @@ cd qr-vault-plus
 
 ## 📸 لقطات الشاشة
 
-<img width="200" alt="11110000" src="https://github.com/user-attachments/assets/bb9c66a4-0ec0-4ee3-a920-458817e9e686" /> <img width="200" alt="9999" src="https://github.com/user-attachments/assets/2614c0a9-68ec-4297-899f-7714f46ecf34" /> <img width="200" alt="8888" src="https://github.com/user-attachments/assets/8f96c145-e3a6-474c-a0d1-3d36e64a4062" /> <img width="200" alt="7777" src="https://github.com/user-attachments/assets/a6a4da19-6f00-4c2f-9820-989cdd21e0f6" /> <img width="200" alt="6666" src="https://github.com/user-attachments/assets/55053641-5113-4542-93c4-6d94d08a9a90" /> <img width="200" alt="5555" src="https://github.com/user-attachments/assets/286500d6-4616-432e-bd9b-fb68c7601381" /> <img width="200" alt="4444" src="https://github.com/user-attachments/assets/3a720fad-5f26-44d7-b247-5c90b7473316" /> <img width="200" alt="3333" src="https://github.com/user-attachments/assets/40a45a71-36f9-42e9-ad68-82556a694275" /> <img width="200" alt="2222" src="https://github.com/user-attachments/assets/d0514c38-4b08-4268-a27f-6d251f0910da" /> <img width="200" alt="1111" src="https://github.com/user-attachments/assets/bac48485-385d-46b9-ab5e-e470e840d9af" />
+<img width="1280" height="960" alt="WhatsApp Image 2026-05-28 at 11 48 28 AM" src="https://github.com/user-attachments/assets/a164bf66-51be-41c8-a2ac-d0d4ec06dbfe" />
+
 
 ---
 
