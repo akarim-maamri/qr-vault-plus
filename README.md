@@ -1,4 +1,4 @@
-+QR Vault
+QR Vault+
 A Local Application for Managing and Storing QR Codes
 A simple Android application designed to work completely offline. Its user interface is developed based on Material Design 3 guidelines with a quiet design touch. The application relies on Kotlin and Jetpack Compose to offer stable and suitable performance.
 
