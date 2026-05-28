@@ -1,88 +1,90 @@
 <img width="1280" height="960" alt="WhatsApp Image 2026-05-28 at 11 48 28 AM" src="https://github.com/user-attachments/assets/68be4584-3721-4e6f-849c-7c577ac5fe0f" />
-# +QR Vault
+# QR Vault+
 
-A simple Android application for scanning, generating, and storing QR codes within a secure local vault.
-
----
-
-## Features
-
-### 1. QR & Barcode Scanning
-* Scan QR codes and barcodes using the device camera.
-* View local scan history.
-* Copy and share scan results.
-
-### 2. QR Code Generation
-* Support for text and URLs.
-* Support for WiFi networks (Network name, password, and security type: WPA/WEP/None).
-* Save generated codes locally as PNG images or share them.
-
-### 3. Secure Local Vault
-* Lock contents with a 4-digit PIN.
-* Support for biometric authentication (Fingerprint and Face Unlock) depending on device availability.
-* Local data encryption on the device.
-* Backup recovery code to restore access if the PIN is forgotten.
-* Automated photo capture after 3 consecutive incorrect PIN attempts.
-
-### 4. Backup & Restore
-* Export the database as an encrypted local file.
-* Upload backups directly to the user's personal Google Drive storage.
-* Optional backup reminders every 15 days (starting 15 days after installation).
-
-### 5. Home Screen Widget
-* A simple widget for quick access to scanning, generation, and vault features.
+تطبيق بسيط لأجهزة أندرويد مخصص لمسح رموز QR وإنشائها، مع توفير خيار لحفظها داخل خزنة محلية مؤمنة.
 
 ---
 
-## Technical Specifications
+## الميزات الأساسية
 
-| Item | Value |
+### 1. مسح رموز QR والباركود
+* مسح رموز QR والباركود عبر كاميرا الجهاز.
+* عرض سجل عمليات المسح المحلية.
+* نسخ ومشاركة نتائج المسح.
+
+### 2. إنشاء رموز QR
+* دعم النصوص والروابط (URLs).
+* دعم شبكات الـ WiFi (اسم الشبكة، كلمة المرور، ونوع الحماية: WPA/WEP/None).
+* حفظ الرموز المنشأة محلياً كصور بصيغة PNG أو مشاركتها.
+
+### 3. الخزنة المحلية الآمنة
+* قفل المحتوى برمز PIN مكون من 4 أرقام.
+* دعم المصادقة الحيوية (البصمة والتعرف على الوجه) بحسب توفرها في الجهاز.
+* تشفير البيانات محلياً على الجهاز.
+* توفير رمز استرداد احتياطي لاستعادة الوصول في حال نسيان رمز PIN.
+* التقاط صورة تلقائية بعد 3 محاولات خاطئة متتالية لإدخال رمز PIN.
+
+### 4. النسخ الاحتياطي والاسترجاع
+* تصدير قاعدة البيانات كملف محلي مشفر.
+* رفع النسخ الاحتياطية مباشرة إلى مساحة Google Drive الشخصية للمستخدم.
+* تنبيهات اختيارية للتذكير بالنسخ الاحتياطي كل 15 يوماً (تبدأ بعد 15 يوماً من التثبيت).
+
+### 5. ويدجت الشاشة الرئيسية
+* ويدجت بسيط للوصول السريع إلى ميزات المسح، الإنشاء، والخزنة.
+
+---
+
+## المواصفات التقنية
+
+| البند | القيمة |
 | :--- | :--- |
-| **Language** | Kotlin |
-| **UI Framework** | Jetpack Compose |
-| **Minimum Android SDK** | API 24 (Android 7.0) |
-| **Target Android SDK** | API 36 |
-| **Database** | Room (SQLite) |
-| **Scanning Tech** | ML Kit Barcode Scanning + CameraX |
-| **Generation Tech** | ZXing |
-| **Authentication** | Firebase Google Sign-In |
-| **Cloud Backup** | Google Drive API v3 |
-| **Version** | 1.0 |
+| **اللغة** | Kotlin |
+| **إطار عمل الواجهة** | Jetpack Compose |
+| **الحد الأدنى لنظام أندرويد** | API 24 (Android 7.0) |
+| **الإصدار المستهدف** | API 36 |
+| **قاعدة البيانات** | Room (SQLite) |
+| **تقنية المسح** | ML Kit Barcode Scanning + CameraX |
+| **تقنية الإنشاء** | ZXing |
+| **المصادقة** | Firebase Google Sign-In |
+| **النسخ الاحتياطي السحابي** | Google Drive API v3 |
+| **الإصدار** | 1.0 |
 
 ---
 
-## Requirements
+## المتطلبات
 
-* Android Studio Hedgehog or newer.
-* JDK 17.
-* A `google-services.json` file from Firebase (required for Google Sign-In).
-* Google Drive API enabled in your Google Cloud Console.
+* برنامج Android Studio Hedgehog أو أحدث.
+* حزمة JDK 17.
+* ملف `google-services.json` من منصة Firebase (مطلوب لتسجيل الدخول بـ Google).
+* تفعيل Google Drive API في حساب Google Cloud Console الخاص بك.
 
 ---
 
-## How to Run the Project Locally
+## كيفية تشغيل المشروع محلياً
 
 ```bash
-# Clone the repository
+# استنساخ المستودع
 git clone [https://github.com/akarim-maamri/qr-vault-plus.git](https://github.com/akarim-maamri/qr-vault-plus.git)
 
-# Navigate to the project directory
+# الانتقال إلى مجلد المشروع
 cd qr-vault-plus
 
-# Note: Please place your google-services.json file inside the app/ directory before building.
-# Build the project
+
+ملاحظات
+الخصوصية: يعمل التطبيق بشكل محلي بالكامل. لا يتم إرسال أي بيانات إلى خوادم خارجية؛ تظل جميع البيانات على جهازك أو في مساحة التخزين الشخصية الخاصة بك على Google Drive.
+
+الأمان: لم يتم تضمين ملف google-services.json في هذا المستودع لأسباب أمنية. يجب عليك إنشاؤه من Firebase Console الخاصة بك لبناء المشروع.
+
+سياسة الخصوصية: يمكنك مراجعة سياسة الخصوصية من هنا.
+
+
+# ملاحظة: يرجى وضع ملف google-services.json داخل مجلد app/ قبل البدء بالبناء
+# بناء المشروع
 ./gradlew assembleDebug
 
-Notes
-Privacy: The application works completely offline. It does not send data to external servers; all data remains on your device or your personal Google Drive storage.
+## 👤 المطور
 
-Security: The google-services.json file is not included in this repository for security reasons. You must generate it from your own Firebase Console to build the project.
-
-Privacy Policy: You can review the privacy policy here.
-
-Developer
-Name: MAAMRI ABDELKARIM
-
-Email: Jussor.Tech@gmail.com
-
-GitHub: akarim-maamri
+* **الاسم:** MAAMRI ABDELKARIM
+* **📧 البريد الإلكتروني:** [Jussor.Tech@gmail.com](mailto:Jussor.Tech@gmail.com)
+* **💻 حساب GitHub:** [akarim-maamri](https://github.com/akarim-maamri)
+* **📱 حساب فيسبوك:** [maamri.abdelkarim.2025](https://web.facebook.com/maamri.abdelkarim.2025)
