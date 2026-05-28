@@ -1,90 +1,178 @@
-<img width="1280" height="960" alt="WhatsApp Image 2026-05-28 at 11 48 28 AM" src="https://github.com/user-attachments/assets/68be4584-3721-4e6f-849c-7c577ac5fe0f" />
-# QR Vault+
+<div align="center">
 
-تطبيق بسيط لأجهزة أندرويد مخصص لمسح رموز QR وإنشائها، مع توفير خيار لحفظها داخل خزنة محلية مؤمنة.
+# <h1 align="center">QR Vault+</h1> <img width="192" height="192" alt="QR+_icon" src="https://github.com/user-attachments/assets/fa11ffec-b922-4f92-a1ca-dedba628c038" />
 
----
+### تطبيق أندرويد متكامل لمسح وإنشاء وحماية رموز QR
 
-## الميزات الأساسية
+[![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://developer.android.com)
+[![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple?logo=kotlin)](https://kotlinlang.org)
+[![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue?logo=android)](https://developer.android.com/jetpack/compose)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0-cyan)](https://github.com/akarim-maamri)
 
-### 1. مسح رموز QR والباركود
-* مسح رموز QR والباركود عبر كاميرا الجهاز.
-* عرض سجل عمليات المسح المحلية.
-* نسخ ومشاركة نتائج المسح.
-
-### 2. إنشاء رموز QR
-* دعم النصوص والروابط (URLs).
-* دعم شبكات الـ WiFi (اسم الشبكة، كلمة المرور، ونوع الحماية: WPA/WEP/None).
-* حفظ الرموز المنشأة محلياً كصور بصيغة PNG أو مشاركتها.
-
-### 3. الخزنة المحلية الآمنة
-* قفل المحتوى برمز PIN مكون من 4 أرقام.
-* دعم المصادقة الحيوية (البصمة والتعرف على الوجه) بحسب توفرها في الجهاز.
-* تشفير البيانات محلياً على الجهاز.
-* توفير رمز استرداد احتياطي لاستعادة الوصول في حال نسيان رمز PIN.
-* التقاط صورة تلقائية بعد 3 محاولات خاطئة متتالية لإدخال رمز PIN.
-
-### 4. النسخ الاحتياطي والاسترجاع
-* تصدير قاعدة البيانات كملف محلي مشفر.
-* رفع النسخ الاحتياطية مباشرة إلى مساحة Google Drive الشخصية للمستخدم.
-* تنبيهات اختيارية للتذكير بالنسخ الاحتياطي كل 15 يوماً (تبدأ بعد 15 يوماً من التثبيت).
-
-### 5. ويدجت الشاشة الرئيسية
-* ويدجت بسيط للوصول السريع إلى ميزات المسح، الإنشاء، والخزنة.
+</div>
 
 ---
 
-## المواصفات التقنية
-
-| البند | القيمة |
-| :--- | :--- |
-| **اللغة** | Kotlin |
-| **إطار عمل الواجهة** | Jetpack Compose |
-| **الحد الأدنى لنظام أندرويد** | API 24 (Android 7.0) |
-| **الإصدار المستهدف** | API 36 |
-| **قاعدة البيانات** | Room (SQLite) |
-| **تقنية المسح** | ML Kit Barcode Scanning + CameraX |
-| **تقنية الإنشاء** | ZXing |
-| **المصادقة** | Firebase Google Sign-In |
-| **النسخ الاحتياطي السحابي** | Google Drive API v3 |
-| **الإصدار** | 1.0 |
+## 📱 نبذة عن التطبيق
+**تطبيق بسيط لأجهزة أندرويد مخصص لمسح رموز QR وإنشائها، مع توفير خيار لحفظها داخل خزنة محلية مؤمنة**
 
 ---
 
-## المتطلبات
+## ✨ المميزات الرئيسية
 
-* برنامج Android Studio Hedgehog أو أحدث.
-* حزمة JDK 17.
-* ملف `google-services.json` من منصة Firebase (مطلوب لتسجيل الدخول بـ Google).
-* تفعيل Google Drive API في حساب Google Cloud Console الخاص بك.
+### 📷 مسح رموز QR
+- مسح فوري باستخدام كاميرا الجهاز.
+- دعم جميع أنواع رموز QR .
+- تاريخ كامل لجميع عمليات المسح.
+- نسخ ومشاركة نتائج المسح بسهولة.
+
+### 🎨 إنشاء رموز QR مخصصة
+- **روابط URL** — مواقع ويب وروابط مباشرة
+- **شبكات WiFi** — دعم شبكات الـ WiFi (اسم الشبكة، كلمة المرور، ونوع الحماية: WPA/WEP/None).
+- **مواقع GPS** — إحداثيات جغرافية
+- **تطبيقات WhatsApp & Telegram** — روابط مباشرة
+
+### 🔐 خزنة الأمان الفائقة
+- **تشفير AES-256** لحماية البيانات
+- قفل برمز **PIN**
+- دعم **البصمة والتعرف على الوجه**
+- **رمز استرداد احتياطي** في حالة نسيان PIN
+- **رصد أي متطفل** — التقاط صورة سيلفي بعد 3 محاولات خاطئة متتالية لإدخال رمز PIN..
+- حفظ أي نوع من الرموز أو الملاحظات داخل الخزنة
+
+### ☁️ النسخ الاحتياطي
+
+-تصدير قاعدة البيانات كملف محلي مشفر.
+-رفع النسخ الاحتياطية مباشرة إلى مساحة Google Drive الشخصية للمستخدم.
+-تنبيهات اختيارية للتذكير بالنسخ الاحتياطي كل 15 يوماً (تبدأ بعد 15 يوماً من التثبيت).
+
+### 🔧 الويدجت
+
+-ويدجت بسيط للوصول السريع إلى ميزات المسح، الإنشاء، والخزنة.
+
+
+## 🛠️ التقنيات المستخدمة
+
+| التقنية | الاستخدام |
+|---------|-----------|
+| **Kotlin** | لغة البرمجة الرئيسية |
+| **Jetpack Compose** | بناء واجهة المستخدم |
+| **Room Database** | تخزين البيانات محلياً |
+| **ML Kit (Barcode Scanning)** | مسح رموز QR |
+| **ZXing** | إنشاء رموز QR |
+| **Google Drive API** | النسخ الاحتياطي السحابي |
+| **BiometricPrompt** | المصادقة البيومترية |
+| **Firebase (Google Sign-In)** | تسجيل الدخول |
+| **Glance API** | ويدجت الشاشة الرئيسية |
+| **AES-256 Encryption** | تشفير البيانات |
 
 ---
 
-## كيفية تشغيل المشروع محلياً
+## 📂 هيكل المشروع
 
+```
+app/src/main/java/com/example/qrcodescanner/
+├── data/                        # طبقة البيانات
+│   ├── AppDatabase.kt           # قاعدة بيانات Room
+│   ├── BiometricHelper.kt       # مساعد البيومتريا
+│   ├── DatabaseBackupUtils.kt   # أدوات النسخ الاحتياطي
+│   ├── L10n.kt                  # الترجمة (AR/EN)
+│   └── ...
+├── ui/
+│   ├── components/              # مكونات واجهة قابلة لإعادة الاستخدام
+│   │   ├── AppInfoDialog.kt     # نافذة معلومات التطبيق
+│   │   └── ...
+│   ├── main/
+│   │   └── MainScreen.kt        # الشاشة الرئيسية
+│   └── screens/
+│       ├── ScannerScreen.kt     # شاشة المسح
+│       ├── GeneratorScreen.kt   # شاشة الإنشاء
+│       ├── VaultDashboard.kt    # لوحة الخزنة
+│       ├── VaultLockScreen.kt   # شاشة قفل الخزنة
+│       ├── VaultSettingsScreen.kt # إعدادات الخزنة
+│       └── ...
+├── utils/
+│   ├── GoogleDriveBackupHelper.kt # مساعد Google Drive
+│   └── ...
+└── widget/                      # ويدجت الشاشة الرئيسية
+```
+
+---
+
+## 🚀 تشغيل المشروع
+
+### المتطلبات
+- **Android Studio** Hedgehog أو أحدث
+- **JDK 17**
+- **Android SDK** API 26+
+- حساب **Firebase** مع تفعيل Google Sign-In
+
+### خطوات الإعداد
+
+1. **استنساخ المستودع**
 ```bash
-# استنساخ المستودع
-git clone [https://github.com/akarim-maamri/qr-vault-plus.git](https://github.com/akarim-maamri/qr-vault-plus.git)
-
-# الانتقال إلى مجلد المشروع
+git clone https://github.com/akarim-maamri/qr-vault-plus.git
 cd qr-vault-plus
+```
 
+2. **ربط Firebase**
+   - أنشئ مشروعاً في [Firebase Console](https://console.firebase.google.com)
+   - فعل **Google Sign-In** في Authentication
+   - أضف **SHA-1** fingerprint لتطبيقك
+   - حمّل ملف `google-services.json` إلى مجلد `app/`
 
-ملاحظات
-الخصوصية: يعمل التطبيق بشكل محلي بالكامل. لا يتم إرسال أي بيانات إلى خوادم خارجية؛ تظل جميع البيانات على جهازك أو في مساحة التخزين الشخصية الخاصة بك على Google Drive.
+3. **تفعيل Google Drive API**
+   - افتح [Google Cloud Console](https://console.cloud.google.com)
+   - فعل **Google Drive API** للمشروع نفسه
 
-الأمان: لم يتم تضمين ملف google-services.json في هذا المستودع لأسباب أمنية. يجب عليك إنشاؤه من Firebase Console الخاصة بك لبناء المشروع.
-
-سياسة الخصوصية: يمكنك مراجعة سياسة الخصوصية من هنا.
-
-
-# ملاحظة: يرجى وضع ملف google-services.json داخل مجلد app/ قبل البدء بالبناء
-# بناء المشروع
+4. **بناء التطبيق**
+```bash
 ./gradlew assembleDebug
+```
 
-## 👤 المطور
+---
 
-* **الاسم:** MAAMRI ABDELKARIM
-* **📧 البريد الإلكتروني:** Jussor.Tech@gmail.com
-* **💻 حساب جيت هاب :** https://github.com/akarim-maamri
-* **📱 حساب فيسبوك:**https://web.facebook.com/maamri.abdelkarim.2025
+## 📸 لقطات الشاشة
+
+<img width="1280" height="960" alt="WhatsApp Image 2026-05-28 at 11 48 28 AM" src="https://github.com/user-attachments/assets/a164bf66-51be-41c8-a2ac-d0d4ec06dbfe" />
+
+
+---
+
+## 🔒 الأمان والخصوصية
+
+- **لا يرسل أي بيانات** لخوادم خارجية
+- جميع البيانات مشفرة بـ **AES-256** داخل الجهاز
+- النسخ الاحتياطي على **Drive الشخصي للمستخدم** فقط
+- سياسة الخصوصية: [اقرأ هنا](https://sites.google.com/view/qrcodescanner-pp/home)
+
+---
+
+## 📄 الرخصة
+
+```
+MIT License — © 2026 MAAMRI ABDELKARIM
+```
+
+---
+
+## 👨‍💻 المطور
+
+<div align="center">
+
+**MAAMRI ABDELKARIM**
+
+[![Email](https://img.shields.io/badge/Email-Jussor.Tech@gmail.com-red?logo=gmail)](mailto:Jussor.Tech@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-maamri.abdelkarim-blue?logo=facebook)](https://web.facebook.com/maamri.abdelkarim.2025)
+[![Telegram](https://img.shields.io/badge/Telegram-jussor__tech-cyan?logo=telegram)](https://t.me/jussor_tech)
+[![GitHub](https://img.shields.io/badge/GitHub-akarim--maamri-black?logo=github)](https://github.com/akarim-maamri)
+
+</div>
+
+---
+
+** آخر تحديث 28 ماي 2026 الســ14:05ـــــــاعة **
+
+
+</div>
