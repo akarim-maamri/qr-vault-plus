@@ -1,16 +1,21 @@
-# QR Vault+
-### Cyberpunk Offline-First Secure QR Code & Vault Manager
++QR Vault
+A Local Application for Managing and Storing QR Codes
+A simple Android application designed to work completely offline. Its user interface is developed based on Material Design 3 guidelines with a quiet design touch. The application relies on Kotlin and Jetpack Compose to offer stable and suitable performance.
 
-An advanced, offline-first Android application designed with **Material Design 3** standards and a sleek **Apple-like minimalist/cyberpunk aesthetic**. Built using **Kotlin** and **Jetpack Compose**, +QR Vault ensures maximum security and lightning-fast local performance.
+Core Features
+Completely Offline: The app uses a Room SQLite database to save data directly on the device without needing external cloud servers.
 
-## Key Features
-* **Offline-First Architecture**: Powered by Room SQLite for fully local, secure data persistence without external cloud dependencies.
-* **Secure QR Management**: Generate, scan, and track secure QR codes locally with high performance.
-* **Biometric & Vault Lock**: Advanced security layers including biometric authentication to guard encrypted local records.
-* **Cyberpunk UI/UX**: High-contrast minimalist theme utilizing custom neon backgrounds and tailored Material 3 components.
+QR Code Management: The ability to generate, scan, and track QR codes locally.
 
-## Tech Stack
-* **Language**: Kotlin (100%)
-* **UI Framework**: Jetpack Compose
-* **Local Database**: Room SQLite (Client-side Local Storage)
-* **Design Standards**: Material Design 3 & Minimalist UX Guidelines
+Additional Protection: Offers a basic option to lock data via biometric verification (fingerprint) to protect stored records.
+
+Custom User Interface: A simple layout utilizing Material 3 components with dark backgrounds.
+
+Technical Components
+Language: Kotlin.
+
+UI Framework: Jetpack Compose.
+
+Data Storage: Room SQLite (Client-side local storage).
+
+Design Standards: Simple Material Design 3 guidelines.
