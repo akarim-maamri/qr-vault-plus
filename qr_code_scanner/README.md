@@ -1,6 +1,6 @@
 <div align="center">
 
-# +QR Vault
+# QR Vault+
 ### تطبيق أندرويد متكامل لمسح وإنشاء وحماية رموز QR
 
 [![Android](https://img.shields.io/badge/Platform-Android-green?logo=android)](https://developer.android.com)
