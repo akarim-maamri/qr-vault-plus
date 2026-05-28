@@ -1,6 +1,6 @@
 <div align="center">
 
-# QR Vault+ <img width="192" height="192" alt="QR+_icon" src="https://github.com/user-attachments/assets/fa11ffec-b922-4f92-a1ca-dedba628c038" />
+# <h1 align="center">+QR Vault</h1> <img width="192" height="192" alt="QR+_icon" src="https://github.com/user-attachments/assets/fa11ffec-b922-4f92-a1ca-dedba628c038" />
 
 ### تطبيق أندرويد متكامل لمسح وإنشاء وحماية رموز QR
 
