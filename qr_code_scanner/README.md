@@ -118,13 +118,13 @@ cd qr-vault-plus
 
 2. **ربط Firebase**
    - أنشئ مشروعاً في [Firebase Console](https://console.firebase.google.com)
-   - فعّل **Google Sign-In** في Authentication
+   - فعل **Google Sign-In** في Authentication
    - أضف **SHA-1** fingerprint لتطبيقك
    - حمّل ملف `google-services.json` إلى مجلد `app/`
 
 3. **تفعيل Google Drive API**
    - افتح [Google Cloud Console](https://console.cloud.google.com)
-   - فعّل **Google Drive API** للمشروع نفسه
+   - فعل **Google Drive API** للمشروع نفسه
 
 4. **بناء التطبيق**
 ```bash
@@ -172,7 +172,6 @@ MIT License — © 2026 MAAMRI ABDELKARIM
 
 ---
 
-<div align="center">برمج بـ ❤️ في الجزائر 🇩🇿
 ** آخر تحديث 28 ماي 2026 الســ14:05ـــــــاعة **
 
 
