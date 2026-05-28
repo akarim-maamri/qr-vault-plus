@@ -85,6 +85,6 @@ cd qr-vault-plus
 ## 👤 المطور
 
 * **الاسم:** MAAMRI ABDELKARIM
-* **📧 البريد الإلكتروني:** [Jussor.Tech@gmail.com](mailto:Jussor.Tech@gmail.com)
-* **💻 حساب GitHub:** [akarim-maamri](https://github.com/akarim-maamri)
-* **📱 حساب فيسبوك:** [maamri.abdelkarim.2025](https://web.facebook.com/maamri.abdelkarim.2025)
+* **📧 البريد الإلكتروني:** Jussor.Tech@gmail.com
+* **💻 حساب جيت هاب :** https://github.com/akarim-maamri
+* **📱 حساب فيسبوك:**https://web.facebook.com/maamri.abdelkarim.2025
